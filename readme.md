@@ -10,6 +10,8 @@ This is project is built using the following technologies
 
 ## Installation
 
+## For development purposes, you can use the docker-compose.yml to build the environment, it contains a rabbit-mq container and a fake-mail container.
+
 move or copy .env.example to .env and change settings according to your environment.
 
 ```bash
