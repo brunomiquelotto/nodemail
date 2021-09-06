@@ -25,6 +25,11 @@ node index.js
 ### Running the consumer
 ``` bash
 node consumer.js
+```
+
+### Testing
+``` bash
+curl -X POST -d "{ \"template\": \"mars\", \"to\": [\"bruno@teste.com\"], \"params\": { \"name\": \"bruno\"} }" http://localhost:3000/templated-email
 ``` 
 
 ## Adding email templates
